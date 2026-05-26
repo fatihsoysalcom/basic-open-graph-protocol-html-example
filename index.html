@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Graph Protokolü Demo Sayfası</title>
+
+    <!-- Standart SEO Meta Etiketleri -->
+    <meta name="description" content="Bu sayfa, Open Graph protokolünün nasıl çalıştığını gösteren bir demondur.">
+    <link rel="canonical" href="https://example.com/open-graph-demo">
+
+    <!-- Open Graph Protokolü Etiketleri Başlangıcı -->
+    <!-- Bu etiketler, sayfanızın sosyal medyada nasıl görüneceğini kontrol eder. -->
+
+    <!-- og:title: Paylaşım önizlemesinde görünecek başlık. -->
+    <meta property="og:title" content="Open Graph Demosu: Sosyal Medya Paylaşımlarınızı Optimize Edin">
+
+    <!-- og:description: Paylaşım önizlemesinde görünecek açıklama. -->
+    <meta property="og:description" content="Bu örnek sayfa, Open Graph protokolünün temel etiketlerini kullanarak sosyal medya paylaşımlarınızın görünümünü nasıl iyileştirebileceğinizi gösterir.">
+
+    <!-- og:image: Paylaşım önizlemesinde görünecek görselin URL'si. -->
+    <!-- Genellikle 1200x630 piksel boyutunda olması önerilir. -->
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1">
+
+    <!-- og:url: Sayfanın kanonik URL'si. Paylaşım tıklandığında bu adrese yönlendirilir. -->
+    <meta property="og:url" content="https://example.com/open-graph-demo">
+
+    <!-- og:type: İçeriğin türünü belirtir (örn: website, article, video.movie). -->
+    <meta property="og:type" content="website">
+
+    <!-- og:locale: Sayfanın dilini belirtir. -->
+    <meta property="og:locale" content="tr_TR">
+
+    <!-- Twitter Kartları (Open Graph'a benzer, Twitter için özel) -->
+    <!-- Twitter'da daha iyi görünüm için bu etiketler de önerilir. -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    <meta name="twitter:title" content="Open Graph Demosu: Sosyal Medya Paylaşımlarınızı Optimize Edin">
+    <meta name="twitter:description" content="Bu örnek sayfa, Open Graph protokolünün temel etiketlerini kullanarak sosyal medya paylaşımlarınızın görünümünü nasıl iyileştirebileceğinizi gösterir.">
+    <meta name="twitter:image" content="https://picsum.photos/1200/630?random=1">
+
+    <!-- Open Graph Protokolü Etiketleri Sonu -->
+
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        .note {
+            background-color: #e7f3ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-top: 20px;
+            color: #004085;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Open Graph Protokolü Demo Sayfası</h1>
+        <p>Bu sayfa, Open Graph protokolünün nasıl çalıştığını göstermek için hazırlanmıştır. Sayfanın kaynak kodunu inceleyerek <code>&lt;head&gt;</code> bölümündeki <code>&lt;meta property="og:..."&gt;</code> etiketlerini görebilirsiniz.</p>
+        <p>Bu etiketler, bu sayfanın bağlantısı sosyal medyada (Facebook, LinkedIn, WhatsApp vb.) paylaşıldığında otomatik olarak oluşturulan önizlemenin (preview) başlığını, açıklamasını, görselini ve diğer detaylarını belirler.</p>
+        <p>Aşağıdaki görsel, <code>og:image</code> etiketi ile belirtilen görseli temsil etmektedir:</p>
+        <img src="https://picsum.photos/600/300?random=2" alt="Open Graph Örnek Görsel" style="max-width: 100%; height: auto; display: block; margin: 20px 0;">
+        <div class="note">
+            <strong>Nasıl Test Edilir?</strong><br>
+            Bu dosyanın gerçek etkisini görmek için, bu HTML dosyasını bir web sunucusuna yüklemeniz ve ardından <strong>canlı URL'sini</strong> sosyal medya platformlarında (örneğin Facebook Debugger veya LinkedIn Post Inspector gibi araçlarla) test etmeniz gerekir. Yerel olarak açılan dosyanın URL'si (<code>file:///...</code>) sosyal medya platformları tarafından taranamayacaktır.
+        </div>
+    </div>
+</body>
+</html>
